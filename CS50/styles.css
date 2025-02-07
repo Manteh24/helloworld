@@ -1,0 +1,143 @@
+
+#up-links {
+    text-align: right;
+    margin: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #3c4043;
+    font-size: 14px;
+}
+
+a {
+    color: #3c4043;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#up-links.hover {
+    text-decoration: underline;
+}
+
+#s_field {
+    width: 555px; /* Adjust width to match Google's */
+    height: 25px; /* Increase height */
+    font-size: 16px; /* Increase font size */
+    padding: 10px; /* Add padding for spacing */
+    border: 1px solid #dfe1e5; /* Google's light grey border */
+    border-radius: 24px; /* Rounded corners */
+    outline: none; /* Removes default focus outline */
+    box-shadow: 0 1px 5px #c0c0c0;
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 20px;
+}
+
+/* Add hover and focus effects */
+#s_field:hover {
+    border-color: #c0c0c0;
+}
+
+#s_field:focus {
+    border-color: #c0c0c0; 
+    box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+body, html {
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.search {
+    text-align: center;
+    margin-top: 160px;
+    position: relative;
+}
+
+.search img {
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: left;
+    color: red; margin: 25px;
+    margin-top: 60px;
+}
+
+#button {
+    background-color: #4285f4;
+    color: white;
+    margin: 20px;
+    padding: 10px;
+}
+
+#g_search {
+    padding: 10px 20px;
+    background-color: #F8F9FA;
+    border-color: #F8F9FA;
+    color: #3c4043;
+    border: 1px solid #F8F9FA;
+}
+
+#g_search:hover {
+    border: 1px solid #dcdcdc;
+}
+
+#lucky_button {
+    padding: 10px 20px;
+    background-color: #F8F9FA;
+    border-color: #F8F9FA;
+    color: #3c4043;
+    border: 1px solid #F8F9FA;
+}
+
+#lucky_button:hover {
+        border: 1px solid #dcdcdc;
+}
+
+#title {
+    font-size: 18px;
+}
+
+.search-item {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between label and input */
+    align-items: center; /* Vertically align items */
+    margin-bottom: 15px;
+}
+
+.search-item label {
+    font-size: 16px;
+    width: 200px; /* Set a fixed width for the label */
+    text-align: left; /* Align the label text to the right */
+}
+
+.search-item input {
+    padding: 8px;
+    font-size: 16px;
+    width: 80%; /* Make input take the remaining space */
+}
+
+.search-item p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: #333;
+}
+
+.button {
+    text-align: right;
+}
+
+.advanced_title {
+    text-align: left;
+}
+
+.images-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 18px;
+    color: #4285F4; /* Google blue color, adjust if needed */
+}
